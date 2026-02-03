@@ -1,0 +1,56 @@
+[
+  {
+    "id": "work-01",
+    "name": "portfolio",
+    "type": "website",
+    "category": "自主制作",
+    "title": "ポートフォリオサイト作成",
+    "roles": ["Coding", "Design"],
+    "thumbnail": "/assets/img/works/work-01/thumb.jpg"
+  },
+  {
+    "id": "work-02",
+    "name": "nagamatsu",
+    "type": "website",
+    "category": "クライアントワーク",
+    "title": "ながまつ内科・小児科クリニック様 Webサイトリニューアル",
+    "roles": ["Coding", "Design"],
+    "thumbnail": "/assets/img/works/work-02/thumb.jpg"
+  },
+  {
+    "id": "work-03",
+    "name": "fujiyoshi",
+    "type": "website",
+    "category": "クライアントワーク",
+    "title": "フジヨシ醤油様 ECサイトリニューアル",
+    "roles": ["Coding", "Design"],
+    "thumbnail": "/assets/img/works/work-03/thumb.jpg"
+  },
+  {
+    "id": "work-04",
+    "name": "kataroue-oita",
+    "type": "website",
+    "category": "クライアントワーク",
+    "title": "かたろうえ大分 サイト作成",
+    "roles": ["Coding", "Design","Illustration"],
+    "thumbnail": "/assets/img/works/work-01/thumb.jpg"
+  },
+  {
+    "id": "work-05",
+    "name": "portfolio",
+    "type": "website",
+    "category": "自主制作",
+    "title": "ポートフォリオサイト作成",
+    "roles": ["Coding", "Design"],
+    "thumbnail": "/assets/img/works/work-01/thumb.jpg"
+  },
+  {
+    "id": "work-06",
+    "name": "nagamatsu",
+    "type": "website",
+    "category": "クライアントワーク",
+    "title": "ながまつ内科・小児科クリニック様 Webサイトリニューアル",
+    "roles": ["Coding", "Design"],
+    "thumbnail": "/assets/img/works/work-02/thumb.jpg"
+  }
+]

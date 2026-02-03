@@ -1,0 +1,57 @@
+[
+  {
+    "id": "work-03",
+    "name": "fujiyoshi",
+    "type": "website",
+    "category": "クライアントワーク",
+    "title": "フジヨシ醤油株式会社様 ECサイトリニューアル",
+    "date": "2024年2月",
+    "roles": ["ヒアリング","サイト設計","Webデザイン","コーディング","撮影ディレクション"],
+    "summary": "老舗醤油メーカーのECサイトを全面リニューアル。情報設計と購入導線の改善を目的に制作しました。老舗醤油メーカーのECサイトを全面リニューアル。情報設計と購入導線の改善を目的に制作しました。老舗醤油メーカーのECサイトを全面リニューアル。情報設計と購入導線の改善を目的に制作しました。",
+    "link": {
+      "text": "サイトを見る",
+      "url": "https://www.f244.com/"
+    },
+    "period": [
+      "サイト設計　2週間",
+      "デザイン　2ヶ月",
+      "コーディング　3ヶ月"
+    ],
+    "tools": [
+      "Illustrator",
+      "Photoshop",
+      "Visual Studio Code",
+      "MakeShop"
+    ],
+    "languages": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "jQuery",
+      "Smarty"
+    ],
+    "sections": [
+      {
+        "title": "コーディング",
+        "content": "CMS更新を前提に、テンプレートの共通化と再利用性を意識した実装を行いました。"
+      },
+      {
+        "title": "デザイン",
+        "content": "ブランドイメージを損なわないよう、既存カラーを踏襲しつつ情報整理を行いました。ECサイトとしての視認性と導線設計を重視しています。"
+      }
+    ],
+    "images": {
+      "overview": "/assets/img/works/work-03/overview.jpg",
+      "pc": [
+        "/assets/img/works/work-03/pc.png"
+      ],
+      "sp": [
+        "/assets/img/works/work-03/sp.png"
+      ]
+    },
+    "gallery": [
+      "/assets/img/works/work-03/banner-01.jpg",
+      "/assets/img/works/work-03/illustration-01.jpg"
+    ]
+  }
+]

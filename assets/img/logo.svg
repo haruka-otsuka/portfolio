@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" width="75.55" height="37.03" viewBox="0 0 75.55 37.03">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .09em;
+      }
+
+      .cls-2 {
+        fill: #262626;
+        font-family: Karla-SemiBold, Karla;
+        font-size: 17px;
+        font-variation-settings: 'wght' 600;
+        font-weight: 600;
+      }
+
+      .cls-3 {
+        letter-spacing: .07em;
+      }
+
+      .cls-4 {
+        letter-spacing: .05em;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_2-2" data-name="レイヤー 2">
+    <text class="cls-2" transform="translate(0 13.84)"><tspan class="cls-4" x="0" y="0">HARU</tspan><tspan class="cls-3" x="47.97" y="0">K</tspan><tspan class="cls-4" x="60.07" y="0">A </tspan><tspan class="cls-1" x=".34" y="19">OT</tspan><tspan class="cls-3" x="23.72" y="19">S</tspan><tspan class="cls-4" x="35.6" y="19">U</tspan><tspan class="cls-3" x="48.01" y="19">K</tspan><tspan class="cls-4" x="60.1" y="19">A</tspan></text>
+  </g>
+</svg>

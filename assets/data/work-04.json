@@ -1,0 +1,56 @@
+[
+  {
+    "id": "work-04",
+    "name": "rotary",
+    "type": "website",
+    "category": "クライアントワーク",
+    "title": "大分ロータリークラブ様 Webサイトリニューアル",
+    "date": "2024年5月",
+    "roles": ["サイト設計 / Webデザイン / フロントエンド開発"],
+    "summary": "",
+    "link": {
+      "text": "サイトを見る",
+      "url": "https://www.oita-rc.jp/"
+    },
+    "period": [
+      "デサイト設計",
+      "デザイン　1.5週間",
+      "フロントエンド開発　2ヶ月"
+    ],
+    "tools": [
+      "Illustrator",
+      "Photoshop",
+      "Visual Studio Code"
+    ],
+    "languages": [
+      "HTML",
+      "CSS（SCSS）",
+      "JavaScript",
+      "PHP",
+      "WordPress",
+      "GitHub",
+      "JSON"
+    ],
+    "sections": [
+      {
+        "title": "開発詳細",
+        "content": ""
+      },
+      {
+        "title": "デザイン",
+        "content": ""
+      }
+    ],
+    "images": {
+      "overview": "/assets/img/works/work-04/overview.jpg",
+      "pc": [
+        "/assets/img/works/work-04/pc.png"
+      ],
+      "sp": [
+        "/assets/img/works/work-04/sp.png"
+      ]
+    },
+    "gallery": [
+    ]
+  }
+]

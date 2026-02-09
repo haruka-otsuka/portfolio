@@ -82,15 +82,32 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (!document.body.classList.contains('work-page')) return;
 
-  fetch('assets/data/work-03.json')
-  .then(res => res.json())
-  .then(data => {
-    const work = data[0];
-    setWorkData(work);
-  })
-  .catch(err => {
-    console.error('work.jsonの読み込みに失敗', err);
-  });
+  if (!document.body.classList.contains('work-page')) return;
+
+// URLから name を取得
+const params = new URLSearchParams(location.search);
+const workName = params.get('name');
+
+if (!workName) return;
+
+  // 一覧データを取得
+  fetch('/assets/data/works.json')
+    .then(res => res.json())
+    .then(works => {
+      // name が一致する作品を探す
+      const work = works.find(item => item.name === workName);
+      if (!work) return;
+
+      // id を使って詳細jsonを取得
+      fetch(`/assets/data/${work.id}.json`)
+        .then(res => res.json())
+        .then(data => {
+          setWorkData(data[0]);
+        });
+    })
+    .catch(err => {
+      console.error('workデータ取得エラー', err);
+    });
 
   function setWorkData(work) {
 
@@ -112,16 +129,6 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       links.forEach(link => link.remove());
     }
-
-
-
-
-
-
-
-
-
-
 
     /* ===== overview画像 ===== */
     const overviewWrap = document.querySelector('.js-work__overview');
@@ -171,7 +178,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // } else {
     //   screenWrapSP?.remove();
     // }
-
 
     /* ===== スクリーン画像 ===== */
     const screenWrap = document.querySelector('.js-work__screen');

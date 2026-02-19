@@ -1,0 +1,65 @@
+[
+  {
+    "id": "work-01",
+    "name": "portfolio",
+    "type": "website",
+    "category": "自主制作",
+    "title": "ポートフォリオサイト制作",
+    "roles": ["Coding", "Design"],
+    "thumbnail": "/assets/img/works/work-01/thumb.png"
+  },
+  {
+    "id": "work-02",
+    "name": "nagamatsu",
+    "type": "website",
+    "category": "クライアントワーク",
+    "title": "ながまつ内科・小児科クリニック様 Webサイトリニューアル",
+    "roles": ["Coding", "Design"],
+    "thumbnail": "/assets/img/works/work-02/thumb.png"
+  },
+  {
+    "id": "work-03",
+    "name": "rotary",
+    "type": "website",
+    "category": "クライアントワーク",
+    "title": "大分ロータリークラブ様 Webサイトリニューアル",
+    "roles": ["Coding", "Design"],
+    "thumbnail": "/assets/img/works/work-03/thumb.png"
+  },
+  {
+    "id": "work-04",
+    "name": "fujiyoshi",
+    "type": "website",
+    "category": "クライアントワーク",
+    "title": "フジヨシ醤油様 ECサイトリニューアル",
+    "roles": ["Coding", "Design"],
+    "thumbnail": "/assets/img/works/work-04/thumb.png"
+  },
+  {
+    "id": "work-05",
+    "name": "sangyou",
+    "type": "website",
+    "category": "クライアントワーク",
+    "title": "鬼塚産業株式会社 60周年記念LP制作",
+    "roles": ["Coding", "Design"],
+    "thumbnail": "/assets/img/works/work-05/thumb.png"
+  },
+  {
+    "id": "work-06",
+    "name": "kataroue-oita",
+    "type": "website",
+    "category": "クライアントワーク",
+    "title": "障がい者向けイベント情報サイト「かたろうえ大分」制作",
+    "roles": ["Coding", "Design","Illustration"],
+    "thumbnail": "/assets/img/works/work-06/thumb.png"
+  },
+  {
+    "id": "work-07",
+    "name": "selected-works",
+    "type": "selected-works",
+    "category": "クライアントワーク",
+    "title": "その他のデザイン制作",
+    "roles": ["Design","Illustration"],
+    "thumbnail": "/assets/img/works/work-07/thumb.jpg"
+  }
+]

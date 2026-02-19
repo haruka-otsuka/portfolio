@@ -1,0 +1,64 @@
+[
+  {
+    "id": "work-07",
+    "name": "selected-works",
+    "type": "selected-works",
+    "category": "クライアントワーク",
+    "title": "その他のデザイン制作",
+    "date": "2021年以降",
+    "roles": ["Webデザイン","アイコン作成","イラスト作成","動画素材作成","バナー作成"],
+    "summary": "これまでに携わってきたクライアントワークの中から、細かなデザイン制作物の一部をピックアップしました。\nお客様の想いを汲み取り、形にすることを大切にデザイン作成を行っています。",
+    "tools": [
+      "Illustrator",
+      "Photoshop",
+      "CLIP STUDIO PAINT"
+    ],
+    "images": {
+    },
+    "gallery": {
+      "class": "work__gallery-item--selected-works",
+      "urls": [
+        {
+          "title": "【情報モラル啓発セミナー】バナー作成",
+          "src": "/assets/img/works/work-07/data_moral1.jpg"
+        },
+        {
+          "title": "【情報モラル啓発セミナー】バナー作成",
+          "src": "/assets/img/works/work-07/data_moral2.jpg"
+        },
+        {
+          "title": "【寄付金サイト】　Webデザイン/アイコン作成",
+          "src": "/assets/img/works/work-07/data_kifukin.jpg"
+        },
+        {
+          "title": "【自社CM】　テロップ/ バナー作成",
+          "src": "/assets/img/works/work-07/data_cm1.jpg"
+        },
+        {
+          "title": "【自社CM】　動画素材作成",
+          "src": "/assets/img/works/work-07/data_cm2.jpg"
+        },
+        {
+          "title": "【株式会社佐伯建設】サイト内バナー作成",
+          "src": "/assets/img/works/work-07/data_saiki.jpg"
+        },
+        {
+          "title": "【豊の国ねんりんピック】　サイト内アイコン / フォント作成",
+          "src": "/assets/img/works/work-07/data_nenrin.jpg"
+        },
+        {
+          "title": "【久住高原農業高校　YouTubeショートCM】　動画素材作成",
+          "src": "/assets/img/works/work-07/data_kuju1.jpg"
+        },
+        {
+          "title": "【久住高原農業高校　YouTubeショートCM】　動画素材作成",
+          "src": "/assets/img/works/work-07/data_kuju2.jpg"
+        },
+        {
+          "title": "【久住高原農業高校　YouTubeショートCM】　動画素材作成",
+          "src": "/assets/img/works/work-07/data_kuju3.jpg"
+        }
+      ]
+    }
+  }
+]

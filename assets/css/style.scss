@@ -885,6 +885,9 @@ a {
   .footer__nav-list {
     gap: 35px;
   }
+  .footer__marquee-content {
+    animation: marquee 70s linear infinite;
+  }
   .footer__marquee-text {
     font-size: 10.625rem;
   }

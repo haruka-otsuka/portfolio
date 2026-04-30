@@ -38,12 +38,12 @@
       }
     ],
     "images": {
-      "overview": "/assets/img/works/work-05/overview.jpg",
+      "overview": "/assets/img/works/work-05/overview.webp",
       "pc": [
-        "/assets/img/works/work-05/pc.png"
+        "/assets/img/works/work-05/pc.webp"
       ],
       "sp": [
-        "/assets/img/works/work-05/sp.png"
+        "/assets/img/works/work-05/sp.webp"
       ]
     }
   }

@@ -33,7 +33,7 @@
     "sections": [
       {
         "title": "開発詳細",
-        "content": "サイトの更新頻度が高く、事務局の方が様々なページを更新されると伺っていたため、\nWordPress標準のブロックエディタを活用し、全てのページを管理画面内から直感的に編集できるように構築しています。\nまた、印刷機能の実装を担当するメンバーとの並行作業をスムーズに進めるため、GitHubを用いたソース管理と進捗共有を行いました。"
+        "content": "サイトの更新頻度が高く、事務局の方が様々なページを更新されると伺っていたため、\nWordPress標準のブロックエディタを活用し、全ての固定ページを管理画面内から直感的に編集できるように構築しています。\nまた、週報ページと印刷機能の実装を担当するメンバーとの並行作業をスムーズに進めるため、GitHubを用いたソース管理と進捗共有を行いました。"
       },
       {
         "title": "デザイン",
@@ -41,12 +41,12 @@
       }
     ],
     "images": {
-      "overview": "/assets/img/works/work-03/overview.jpg",
+      "overview": "/assets/img/works/work-03/overview.webp",
       "pc": [
-        "/assets/img/works/work-03/pc.png"
+        "/assets/img/works/work-03/pc.webp"
       ],
       "sp": [
-        "/assets/img/works/work-03/sp.png"
+        "/assets/img/works/work-03/sp.webp"
       ]
     }
   }

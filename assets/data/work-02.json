@@ -43,12 +43,12 @@
       }
     ],
     "images": {
-      "overview": "/assets/img/works/work-02/overview.jpg",
+      "overview": "/assets/img/works/work-02/overview.webp",
       "pc": [
-        "/assets/img/works/work-02/pc.png"
+        "/assets/img/works/work-02/pc.webp"
       ],
       "sp": [
-        "/assets/img/works/work-02/sp.png"
+        "/assets/img/works/work-02/sp.webp"
       ]
     }
   }

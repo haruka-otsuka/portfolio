@@ -6,13 +6,19 @@
   --color-line-gray: #cfcfcf;
 }
 
-html, html * {
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: "Karla", "Noto Sans JP", sans-serif;
-  font-size: 100%;
+}
+
+body {
+  font-size: 16px;
   font-weight: 400;
+  font-family: "Karla", "Noto Sans JP", system-ui, -apple-system, sans-serif;
   color: var(--color-black);
 }
 
@@ -22,6 +28,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: var(--color-black);
 }
 
 /*共通*/
@@ -52,7 +59,7 @@ a {
 }
 
 .gradient {
-  background-image: url("../img/gradient-bg.jpg");
+  background-image: url("../img/gradient-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -80,7 +87,7 @@ a {
 .header__nav-list {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 15px;
 }
 
 .header__nav-item,
@@ -100,6 +107,18 @@ a {
     background-size: 100% 1px;
   }
 }
+.header__nav-item--icon,
+.footer__nav-item--icon {
+  background: none;
+  transition: opacity 0.2s;
+}
+
+@media (any-hover: hover) {
+  .header__nav-item--icon:hover,
+  .footer__nav-item--icon:hover {
+    opacity: 0.5;
+  }
+}
 .header__nav-link,
 .footer__nav-link {
   inset: 0;
@@ -108,13 +127,21 @@ a {
   position: absolute;
 }
 
+.header__nav-link--icon,
+.footer__nav-link--icon {
+  position: relative;
+}
+
 .footer {
   position: relative;
 }
 
 .footer__content {
   display: flex;
+  gap: 20px;
   justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column-reverse;
   width: min(1200px, 100% - 30px);
   margin: 0 auto;
 }
@@ -134,9 +161,12 @@ a {
 
 .scroll-top {
   font-weight: 500;
-  padding-right: 20px;
+  margin-top: 10px;
   height: -moz-min-content;
   height: min-content;
+  font-size: 1rem;
+  font-family: "Karla", "Noto Sans JP", system-ui, -apple-system, sans-serif;
+  color: var(--color-black);
   background-image: linear-gradient(90deg, var(--color-black), var(--color-black));
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -151,16 +181,15 @@ a {
           appearance: none;
 }
 .scroll-top::after {
+  display: inline-block;
   content: "";
   width: 8px;
   height: 13px;
+  padding-left: 20px;
   background-image: url("../img/arrows.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%) rotate(180deg);
+  transform: rotate(180deg) translateY(-1px);
 }
 
 @media (any-hover: hover) {
@@ -202,7 +231,7 @@ a {
 .page-header {
   padding: 7.5rem 0;
   background-color: #f9f6f8;
-  background-image: url(../img/bg01.png);
+  background-image: url("../img/bg01.png");
   position: relative;
   overflow: hidden;
 }
@@ -210,7 +239,7 @@ a {
   content: "";
   width: 1200px;
   height: 1200px;
-  background-image: url("../img/circle.png");
+  background-image: url("../img/circle.webp");
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -416,7 +445,7 @@ a {
 .fv__decorative-circle {
   width: 1000px;
   height: 1000px;
-  background-image: url("../img/circle.png");
+  background-image: url("../img/circle.webp");
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
@@ -549,6 +578,7 @@ a {
   display: block;
   width: 100%;
   transition: transform 0.3s;
+  aspect-ratio: 4/3;
 }
 
 .works__info {
@@ -777,7 +807,7 @@ a {
 .bio::after {
   display: none;
   content: "";
-  background-image: url("../img/profile/profile-intro-decoration.png");
+  background-image: url("../img/profile/profile-intro-decoration.webp");
   background-repeat: no-repeat;
   background-size: contain;
   width: 362px;
@@ -812,7 +842,7 @@ a {
 }
 .skills__content--front-end::after {
   content: "";
-  background-image: url("../img/profile/profile-skill-decoration01.png");
+  background-image: url("../img/profile/profile-skill-decoration01.webp");
   background-repeat: no-repeat;
   background-size: contain;
   width: 896px;
@@ -829,7 +859,7 @@ a {
 }
 .skills__content--design::after {
   content: "";
-  background-image: url("../img/profile/profile-skill-decoration02.png");
+  background-image: url("../img/profile/profile-skill-decoration02.webp");
   background-repeat: no-repeat;
   background-size: contain;
   width: 896px;
@@ -958,10 +988,14 @@ a {
     padding: 16.25rem 0 13.125rem 0;
   }
   .header__nav-list {
-    gap: 35px;
+    gap: 30px;
+  }
+  .footer__content {
+    display: flex;
+    flex-direction: row;
   }
   .footer__nav-list {
-    gap: 35px;
+    gap: 30px;
   }
   .footer__marquee-content {
     animation: marquee 70s linear infinite;

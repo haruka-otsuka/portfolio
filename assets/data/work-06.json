@@ -46,12 +46,12 @@
       }
     ],
     "images": {
-      "overview": "/assets/img/works/work-06/overview.jpg",
+      "overview": "/assets/img/works/work-06/overview.webp",
       "pc": [
-        "/assets/img/works/work-06/pc.png"
+        "/assets/img/works/work-06/pc.webp"
       ],
       "sp": [
-        "/assets/img/works/work-06/sp.png"
+        "/assets/img/works/work-06/sp.webp"
       ]
     },
     "gallery": {
@@ -59,7 +59,7 @@
       "urls": [
         {
           "title": "",
-          "src": "/assets/img/works/work-06/illustration.png"
+          "src": "/assets/img/works/work-06/illustration.webp"
         }
       ]
     }

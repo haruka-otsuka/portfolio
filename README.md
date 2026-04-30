@@ -1,5 +1,5 @@
 # portfolio
-![ポートフォリオサイトのモックアップ画像](https://haruka-otsuka.com/assets/img/works/work-01/overview.jpg)  
+![ポートフォリオサイトのモックアップ画像](https://haruka-otsuka.com/assets/img/works/work-01/overview.webp)  
 私のポートフォリオサイトです。  
 これまでの制作実績やスキル、プロフィールをまとめています。  
 
@@ -32,7 +32,7 @@ HTML、CSS、JavaScriptのみのシンプルな構成ですが、運用のこと
 - OGP / favicon設定
 
 
-## ディレクトリ構成（2/23時点）
+## ディレクトリ構成
 ```
 /
 ├─assets

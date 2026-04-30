@@ -6,7 +6,7 @@
     "category": "自主制作",
     "title": "ポートフォリオサイト制作",
     "roles": ["Coding", "Design"],
-    "thumbnail": "/assets/img/works/work-01/thumb.png"
+    "thumbnail": "/assets/img/works/work-01/thumb.webp"
   },
   {
     "id": "work-02",
@@ -15,7 +15,7 @@
     "category": "クライアントワーク",
     "title": "ながまつ内科・小児科クリニック様 Webサイトリニューアル",
     "roles": ["Coding", "Design"],
-    "thumbnail": "/assets/img/works/work-02/thumb.png"
+    "thumbnail": "/assets/img/works/work-02/thumb.webp"
   },
   {
     "id": "work-03",
@@ -24,7 +24,7 @@
     "category": "クライアントワーク",
     "title": "大分ロータリークラブ様 Webサイトリニューアル",
     "roles": ["Coding", "Design"],
-    "thumbnail": "/assets/img/works/work-03/thumb.png"
+    "thumbnail": "/assets/img/works/work-03/thumb.webp"
   },
   {
     "id": "work-04",
@@ -33,7 +33,7 @@
     "category": "クライアントワーク",
     "title": "フジヨシ醤油様 ECサイトリニューアル",
     "roles": ["Coding", "Design"],
-    "thumbnail": "/assets/img/works/work-04/thumb.png"
+    "thumbnail": "/assets/img/works/work-04/thumb.webp"
   },
   {
     "id": "work-05",
@@ -42,7 +42,7 @@
     "category": "クライアントワーク",
     "title": "鬼塚産業株式会社 60周年記念LP制作",
     "roles": ["Coding", "Design"],
-    "thumbnail": "/assets/img/works/work-05/thumb.png"
+    "thumbnail": "/assets/img/works/work-05/thumb.webp"
   },
   {
     "id": "work-06",
@@ -51,7 +51,7 @@
     "category": "クライアントワーク",
     "title": "障がい者向けイベント情報サイト「かたろうえ大分」制作",
     "roles": ["Coding", "Design","Illustration"],
-    "thumbnail": "/assets/img/works/work-06/thumb.png"
+    "thumbnail": "/assets/img/works/work-06/thumb.webp"
   },
   {
     "id": "work-07",
@@ -60,6 +60,6 @@
     "category": "クライアントワーク",
     "title": "その他のデザイン制作",
     "roles": ["Design","Illustration"],
-    "thumbnail": "/assets/img/works/work-07/thumb.jpg"
+    "thumbnail": "/assets/img/works/work-07/thumb.webp"
   }
 ]
